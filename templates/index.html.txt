@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest - Jogo de Programação</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bem-vindo ao Code Quest - Jogo de Programação!</h1>
+    <p>Clique nos links abaixo para acessar cada nível do jogo:</p>
+    <ul>
+        <li><a href="/nivel1">Nível 1 - Variáveis</a></li>
+        <li><a href="/nivel2">Nível 2 - Condicionais</a></li>
+        <li><a href="/nivel3">Nível 3 - Loops</a></li>
+        <li><a href="/nivel4">Nível 4 - Funções</a></li>
+        <li><a href="/nivel5">Nível 5 - Desafios Avançados</a></li>
+    </ul>
+</body>
+</html>
